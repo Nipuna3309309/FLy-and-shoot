@@ -35,7 +35,7 @@
             android:text="@string/Wingwars"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="60sp"
-            android:textStyle="bold"
+            android:textStyle="bold|italic"
             app:layout_constraintBottom_toTopOf="@+id/play"
             app:layout_constraintEnd_toStartOf="@+id/highScoreTxt"
             app:layout_constraintStart_toStartOf="@+id/imageView"
@@ -106,10 +106,10 @@
             android:layout_marginBottom="72dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.891"
+            app:layout_constraintHorizontal_bias="0.422"
             app:layout_constraintStart_toEndOf="@+id/play"
             app:layout_constraintTop_toBottomOf="@+id/highScoreTxt"
-            app:layout_constraintVertical_bias="0.625"
+            app:layout_constraintVertical_bias="0.993"
             app:srcCompat="@drawable/bird3" />
 
         <ImageView
@@ -147,8 +147,10 @@
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/play" />
+            app:layout_constraintTop_toBottomOf="@+id/play"
+            app:layout_constraintVertical_bias="0.725" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

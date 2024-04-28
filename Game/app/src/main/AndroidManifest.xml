@@ -13,26 +13,26 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".Instructions"
-            android:exported="false"
-            android:screenOrientation="sensorLandscape"
-
-            />
-        <activity
-            android:name=".GameActivity"
-            android:exported="false"
-            android:screenOrientation="sensorLandscape"
-            />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:screenOrientation="sensorLandscape">
+            android:name=".LaunchPage"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Instructions"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".GameActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
     </application>
 
 </manifest>
